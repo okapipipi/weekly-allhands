@@ -1,0 +1,12 @@
+{
+  "id": "slides-weekly-allhands",
+  "title": "先週のふりかえり",
+  "subtitle": "Weekly All Hands / 2026.06.05",
+  "description": "先週の投稿MVP・注目ナレッジ・勉強会の学びをまとめ、今週に向けた前向きな締めで終える週次オールハンズ資料。",
+  "tags": ["light", "pastel", "playful", "weekly"],
+  "swatches": ["#fff7ed", "#6b5bff", "#ff7ab6", "#51d0a8"],
+  "slideCount": 9,
+  "patterns": ["cover", "agenda", "section", "metric", "grid", "closing"],
+  "fonts": ["Plus Jakarta Sans", "Noto Sans JP", "Geist Mono"],
+  "createdAt": "2026-06-05"
+}
