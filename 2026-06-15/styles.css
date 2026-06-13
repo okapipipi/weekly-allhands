@@ -1198,3 +1198,14 @@ code {
   .compare__arrow { transform: rotate(90deg); }
   .two-col { grid-template-columns: 1fr; }
 }
+
+/* ── Wiki 共有数ベスト3 ランキングボード ───────────────── */
+.contrib-rank { list-style:none; display:flex; flex-direction:column; gap:.85rem; margin-top:var(--gap-sm); }
+.contrib-rank > li { display:flex; gap:1rem; background:var(--bg-elev); border:1px solid var(--line); border-radius:16px; padding:1rem 1.2rem; align-items:flex-start; }
+.contrib-rank .rk { font-size:1.7rem; font-weight:800; color:var(--grape); min-width:2.4rem; line-height:1; text-align:center; }
+.contrib-rank .rk small { display:block; font-size:.58rem; color:var(--fg-muted); font-weight:700; letter-spacing:.08em; margin-top:.15rem; }
+.contrib-rank .who { font-size:1.05rem; font-weight:800; }
+.contrib-rank .who em { font-style:normal; color:var(--pink); margin-left:.5rem; font-size:.92rem; }
+.contrib-rank .posts { font-family:var(--font-jp); font-size:.76rem; color:var(--fg-muted); line-height:1.55; margin-top:.35rem; }
+.contrib-total { margin-top:1.1rem; font-size:.92rem; font-weight:700; color:var(--fg); }
+.contrib-total span { color:var(--grape); }
