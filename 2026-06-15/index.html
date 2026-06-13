@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="先週のふりかえり — Weekly All Hands / 2026.06.15" />
+  <title>先週のふりかえり — Weekly All Hands</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="deck" id="deck" aria-label="Weekly All Hands 2026.06.15">
+    <div class="deck__track" id="track">
+
+      <!-- 01 — Cover -->
+      <section class="slide" data-layout="cover" aria-roledescription="slide" aria-labelledby="s1-title">
+        <div class="cover-deco" aria-hidden="true">
+          <div class="blob blob--a"></div>
+          <div class="blob blob--b"></div>
+          <div class="blob blob--c"></div>
+        </div>
+        <div class="slide__inner slide__inner--cover">
+          <header class="cover__top reveal" style="--i:0">
+            <span class="cover__brand">WEEKLY&nbsp;ALL&nbsp;HANDS</span>
+            <span class="sticker sticker--pink">2026.06.15</span>
+          </header>
+          <div class="cover__main">
+            <h1 class="display reveal" style="--i:1" id="s1-title">
+              <span class="gradient">先週</span> の<br />ふりかえり
+            </h1>
+            <p class="lede reveal" style="--i:2">投稿MVP・注目ナレッジ・Salesforce CLI × Claude 特集を 1 周。<br />先週もたくさんの知見が集まりました。</p>
+          </div>
+          <footer class="cover__foot reveal" style="--i:3">
+            <span>社内ナレッジ共有</span>
+            <span class="dot"></span>
+            <span>2026.06.15</span>
+            <span class="dot"></span>
+            <span>Weekly</span>
+          </footer>
+        </div>
+      </section>
+
+      <!-- 02 — Agenda -->
+      <section class="slide" data-layout="agenda" aria-roledescription="slide" aria-labelledby="s2-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">Agenda</span>
+            <h2 class="title" id="s2-title">先週を <em class="squiggle">ふりかえる</em></h2>
+          </header>
+          <ol class="agenda" role="list">
+            <li class="agenda__item reveal" style="--i:1">
+              <span class="agenda__num">01</span>
+              <span class="agenda__title">先週ナレッジを共有した人</span>
+              <span class="agenda__desc">知見をシェアしてくれたメンバーに感謝</span>
+            </li>
+            <li class="agenda__item reveal" style="--i:2">
+              <span class="agenda__num">02</span>
+              <span class="agenda__title">注目ナレッジ・Tips</span>
+              <span class="agenda__desc">先週特に役立つ投稿をピックアップ</span>
+            </li>
+            <li class="agenda__item reveal" style="--i:3">
+              <span class="agenda__num">03</span>
+              <span class="agenda__title">Salesforce CLI × Claude 特集</span>
+              <span class="agenda__desc">営業オペを自動化する実践ナレッジ</span>
+            </li>
+            <li class="agenda__item reveal" style="--i:4">
+              <span class="agenda__num">04</span>
+              <span class="agenda__title">全体総括</span>
+              <span class="agenda__desc">先週のまとめと、今週への一言</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- 03 — Section: 投稿者 -->
+      <section class="slide section--grape" data-layout="section" aria-roledescription="slide" aria-labelledby="s3-title">
+        <div class="section-deco" aria-hidden="true">
+          <div class="blob blob--pink blob--big"></div>
+        </div>
+        <div class="slide__inner">
+          <span class="kicker reveal" style="--i:0">01 / 04</span>
+          <div class="section__num reveal" style="--i:1">01</div>
+          <h2 class="section__title reveal" style="--i:2" id="s3-title">先週 <em class="highlight">ナレッジを共有した人</em></h2>
+          <p class="section__sub reveal" style="--i:3">積極的なアウトプットがチーム全体の財産になります。<br />先週、知見をシェアしてくれたメンバーに感謝！</p>
+        </div>
+      </section>
+
+      <!-- 04 — Metric: 投稿者 -->
+      <section class="slide" data-layout="metric" aria-roledescription="slide" aria-labelledby="s4-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">Knowledge Sharers</span>
+            <h2 class="title" id="s4-title">先週の <em class="squiggle">投稿数</em></h2>
+          </header>
+          <div class="metric-row">
+            <div class="metric metric--grape reveal" style="--i:1">
+              <div>
+                <span class="metric__num" data-count="9">0</span>
+                <span class="metric__unit">件</span>
+              </div>
+              <span class="metric__label">増谷さん</span>
+              <span class="metric__note">Claude × Salesforce CLI のナレッジを連投</span>
+            </div>
+            <div class="metric metric--pink reveal" style="--i:2">
+              <div>
+                <span class="metric__num" data-count="1">0</span>
+                <span class="metric__unit">件</span>
+              </div>
+              <span class="metric__label">轟さん</span>
+              <span class="metric__note">「外ID（紹介アポ）の重要性」を共有</span>
+            </div>
+            <div class="metric metric--mint reveal" style="--i:3">
+              <div>
+                <span class="metric__num" data-count="10">0</span>
+                <span class="metric__unit">件</span>
+              </div>
+              <span class="metric__label">先週の投稿 合計</span>
+              <span class="metric__note">AI 活用・営業ノウハウが中心</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 05 — Section: 注目ナレッジ -->
+      <section class="slide section--mint" data-layout="section" aria-roledescription="slide" aria-labelledby="s5-title">
+        <div class="section-deco" aria-hidden="true">
+          <div class="blob blob--sun blob--big"></div>
+        </div>
+        <div class="slide__inner">
+          <span class="kicker reveal" style="--i:0">02 / 04</span>
+          <div class="section__num reveal" style="--i:1">02</div>
+          <h2 class="section__title reveal" style="--i:2" id="s5-title">注目 <em class="highlight">ナレッジ・Tips</em></h2>
+          <p class="section__sub reveal" style="--i:3">AI 活用と営業ノウハウに効く、先週の良質な投稿を 3 本。</p>
+        </div>
+      </section>
+
+      <!-- 06 — Grid: 注目ナレッジ -->
+      <section class="slide" data-layout="grid" aria-roledescription="slide" aria-labelledby="s6-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">Knowledge & Tips</span>
+            <h2 class="title" id="s6-title">先週の <em class="squiggle">いい投稿</em></h2>
+          </header>
+          <ul class="cards" role="list">
+            <li class="card reveal" style="--i:1">
+              <span class="card__icon card__icon--grape" aria-hidden="true">★</span>
+              <h3 class="card__title">外ID（紹介アポ）の重要性</h3>
+              <p class="card__body">一度断られても諦めない攻め方。紹介経由のアポをどう活かすか、営業マインドを言語化。</p>
+              <p class="card__meta">Sales / 紹介開拓 ・ 轟さん</p>
+            </li>
+            <li class="card reveal" style="--i:2">
+              <span class="card__icon card__icon--pink" aria-hidden="true">♥</span>
+              <h3 class="card__title">Claude Fable 5 って何者？</h3>
+              <p class="card__body">Opus の上の新モデル Fable 5。高性能だがコストも高め。営業・提案・リサーチの“どこに効くか”を整理。</p>
+              <p class="card__meta">AI / 新モデル ・ 増谷さん</p>
+            </li>
+            <li class="card reveal" style="--i:3">
+              <span class="card__icon card__icon--mint" aria-hidden="true">✓</span>
+              <h3 class="card__title">Claude Code の実行環境を理解する</h3>
+              <p class="card__body">Web・デスクトップ・ターミナルの違いを整理。DigiMan は「デスクトップファースト」で使うのが結論。</p>
+              <p class="card__meta">Tools / Claude Code ・ 増谷さん</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 07 — Section: SF CLI 特集 -->
+      <section class="slide section--pink" data-layout="section" aria-roledescription="slide" aria-labelledby="s7-title">
+        <div class="section-deco" aria-hidden="true">
+          <div class="blob blob--mint blob--big"></div>
+        </div>
+        <div class="slide__inner">
+          <span class="kicker reveal" style="--i:0">03 / 04</span>
+          <div class="section__num reveal" style="--i:1">03</div>
+          <h2 class="section__title reveal" style="--i:2" id="s7-title">Salesforce CLI × <em class="highlight">Claude 特集</em></h2>
+          <p class="section__sub reveal" style="--i:3">増谷さんが連投した、営業オペレーションを自動化する実践ナレッジ。<br />CLI で Salesforce のデータを動かし、Claude が打ち手まで出す。</p>
+        </div>
+      </section>
+
+      <!-- 08 — Grid: SF CLI 活用 -->
+      <section class="slide" data-layout="grid" aria-roledescription="slide" aria-labelledby="s8-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">Salesforce CLI × Claude</span>
+            <h2 class="title" id="s8-title">CLI で <em class="squiggle">営業を自動化</em> する</h2>
+          </header>
+          <ul class="cards" role="list">
+            <li class="card reveal" style="--i:1">
+              <span class="card__icon card__icon--grape" aria-hidden="true">◆</span>
+              <h3 class="card__title">止まってる商談を自動検知</h3>
+              <p class="card__body">停滞中の商談を CLI で抽出し、フォローメールの下書きまで自動生成。放置をなくす。</p>
+              <p class="card__meta">商談フォロー</p>
+            </li>
+            <li class="card reveal" style="--i:2">
+              <span class="card__icon card__icon--pink" aria-hidden="true">◆</span>
+              <h3 class="card__title">商談前ブリーフを自動生成</h3>
+              <p class="card__body">商談前に必要な情報を Claude がまとめ、そのまま PDF 出力。準備時間を圧縮。</p>
+              <p class="card__meta">商談準備</p>
+            </li>
+            <li class="card reveal" style="--i:3">
+              <span class="card__icon card__icon--mint" aria-hidden="true">◆</span>
+              <h3 class="card__title">失注分析 → 再アプローチ</h3>
+              <p class="card__body">失注データを分析し、再アプローチの“金脈”と打ち手を抽出。＋メンバー活動データの評価・コーチング化も。</p>
+              <p class="card__meta">分析・育成</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 09 — Closing -->
+      <section class="slide" data-layout="closing" aria-roledescription="slide" aria-labelledby="s9-title">
+        <div class="closing-deco" aria-hidden="true">
+          <div class="blob blob--pink blob--a"></div>
+          <div class="blob blob--mint blob--b"></div>
+          <div class="blob blob--sun blob--c"></div>
+        </div>
+        <div class="slide__inner slide__inner--center">
+          <span class="kicker reveal" style="--i:0">Have a great week!</span>
+          <h2 class="closing__title reveal" style="--i:1" id="s9-title">
+            <span class="gradient">今週も</span><br />頑張りましょう！
+          </h2>
+          <p class="closing__text reveal" style="--i:2">
+            先週も Claude 活用や営業オペ自動化の素晴らしいナレッジがたくさん集まりました！<br />
+            今週も、たくさんの知見を共有し合っていきましょう！
+          </p>
+          <a class="closing__cta reveal" style="--i:3" href="#1">先頭に戻る →</a>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Chrome (bottom nav) -->
+    <div class="chrome">
+      <div class="chrome__brand">WEEKLY&nbsp;ALL&nbsp;HANDS&nbsp;/&nbsp;06.15</div>
+      <nav class="controls" aria-label="Slide navigation">
+        <button class="control" data-action="prev" aria-label="Previous slide">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 6-6 6 6 6"/></svg>
+        </button>
+        <div class="counter" aria-live="polite">
+          <span id="cur">01</span><span class="counter__sep">/</span><span id="tot">09</span>
+        </div>
+        <button class="control" data-action="next" aria-label="Next slide">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+        </button>
+      </nav>
+    </div>
+
+    <div class="progress" aria-hidden="true">
+      <div class="progress__bar" id="bar"></div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
