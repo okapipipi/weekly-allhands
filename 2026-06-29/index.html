@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="先週のふりかえり — Weekly All Hands / 2026.06.29" />
+  <title>先週のふりかえり — Weekly All Hands</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="deck" id="deck" aria-label="Weekly All Hands 2026.06.29">
+    <div class="deck__track" id="track">
+
+      <!-- 01 — Cover -->
+      <section class="slide" data-layout="cover" aria-roledescription="slide" aria-labelledby="s1-title">
+        <div class="cover-deco" aria-hidden="true">
+          <div class="blob blob--a"></div>
+          <div class="blob blob--b"></div>
+          <div class="blob blob--c"></div>
+        </div>
+        <div class="slide__inner slide__inner--cover">
+          <header class="cover__top reveal" style="--i:0">
+            <span class="cover__brand">WEEKLY&nbsp;WIKI</span>
+            <span class="sticker sticker--pink">2026.06.29</span>
+          </header>
+          <div class="cover__main">
+            <h1 class="display reveal" style="--i:1" id="s1-title">
+              <span class="gradient">先週</span> の<br />ふりかえり
+            </h1>
+            <p class="lede reveal" style="--i:2">Wiki共有数ベスト3・注目ナレッジ・AI×実務活用特集を 1 周。<br />先週も 31 件の知見が集まりました。</p>
+          </div>
+          <footer class="cover__foot reveal" style="--i:3">
+            <span>社内ナレッジ共有</span>
+            <span class="dot"></span>
+            <span>2026.06.29</span>
+            <span class="dot"></span>
+            <span>Weekly</span>
+          </footer>
+        </div>
+      </section>
+
+      <!-- 02 — Agenda -->
+      <section class="slide" data-layout="agenda" aria-roledescription="slide" aria-labelledby="s2-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">Agenda</span>
+            <h2 class="title" id="s2-title">先週を <em class="squiggle">ふりかえる</em></h2>
+          </header>
+          <ol class="agenda" role="list">
+            <li class="agenda__item reveal" style="--i:1">
+              <span class="agenda__num">01</span>
+              <span class="agenda__title">Wiki共有数ベスト3</span>
+              <span class="agenda__desc">先週いちばん知見をシェアしたメンバー</span>
+            </li>
+            <li class="agenda__item reveal" style="--i:2">
+              <span class="agenda__num">02</span>
+              <span class="agenda__title">注目ナレッジ・Tips</span>
+              <span class="agenda__desc">反応（閲覧）が多かった投稿をピックアップ</span>
+            </li>
+            <li class="agenda__item reveal" style="--i:3">
+              <span class="agenda__num">03</span>
+              <span class="agenda__title">AI × 実務活用ナレッジ特集</span>
+              <span class="agenda__desc">Salesforce・音声・コード開発との実践的な組み合わせ</span>
+            </li>
+            <li class="agenda__item reveal" style="--i:4">
+              <span class="agenda__num">04</span>
+              <span class="agenda__title">全体総括</span>
+              <span class="agenda__desc">先週のまとめと、今週への一言</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- 03 — Section: Wiki共有数ベスト3 -->
+      <section class="slide section--grape" data-layout="section" aria-roledescription="slide" aria-labelledby="s3-title">
+        <div class="section-deco" aria-hidden="true">
+          <div class="blob blob--pink blob--big"></div>
+        </div>
+        <div class="slide__inner">
+          <span class="kicker reveal" style="--i:0">01 / 04</span>
+          <div class="section__num reveal" style="--i:1">01</div>
+          <h2 class="section__title reveal" style="--i:2" id="s3-title">Wiki <em class="highlight">共有数ベスト3</em></h2>
+          <p class="section__sub reveal" style="--i:3">積極的なアウトプットがチーム全体の財産になります。<br />先週いちばん知見をシェアしてくれたメンバーに感謝！</p>
+        </div>
+      </section>
+
+      <!-- 04 — ランキングボード -->
+      <section class="slide" data-layout="rank" aria-roledescription="slide" aria-labelledby="s4-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">Wiki Knowledge Ranking</span>
+            <h2 class="title" id="s4-title">Wiki <em class="squiggle">共有数ベスト3</em></h2>
+          </header>
+          <ol class="contrib-rank">
+            <li class="reveal" style="--i:1">
+              <span class="rk">1<small>位</small></span>
+              <div>
+                <div class="who">増谷さん <em>21件</em></div>
+                <p class="posts">CSカルテで顧客状況を一元把握 ／ AI最新ニュースをNotion蓄積→Slack自動配信 ／ Claude Artifacts活用（成果物をリンク1つで共有） ／ Claude EMA×MCP対応 ／ Sakana Fugu（マルチモデル時代の切り返し） ／ 録画なし訪問後ボイスメモパイプライン ／ Claude障害「検知6分」の速さを読む ／ 社内ナレッジを顧客提案アクションに自動接続 ／ ZoomでZRA不要の架電分析 ／ 「体験させる」が効いた商談後即フォロー実例 ／ GitHubの次の開発インフラ ／ GPT-5.5 Instant ／ Claudeをマーケ（MMM）で活用 ／ 「過去の自分をメンター化」する活用 ／ AIを使いこなすとは「欠けを埋めさせる型」 ／ ほか計21件</p>
+              </div>
+            </li>
+            <li class="reveal" style="--i:2">
+              <span class="rk">2<small>位</small></span>
+              <div>
+                <div class="who">生井さん <em>3件</em></div>
+                <p class="posts">増谷さんから学んだ「新卒の"今"が頑張りどきな理由」 ／ Analytics as Code——「AIがBIを消す」時代の文脈 ／ Webアプリってどうやって動いているの？——ウェブの基礎知識</p>
+              </div>
+            </li>
+            <li class="reveal" style="--i:3">
+              <span class="rk">3<small>位</small></span>
+              <div>
+                <div class="who">堺さん・海老根さん・田中さん・秋元さん・菊池さん・キムさん・常田さん <em>各1件</em></div>
+                <p class="posts">岡部さんから学ぶ仕事術（堺さん） ／ Claude Code vs Copilot Cowork 徹底整理（海老根さん） ／ AIが会話を「評価する」時代（秋元さん） ／ AIからSalesforceを動かす3手段（菊池さん） ／ Web技術の基礎知識をまとめてみました！（キムさん） ／ Claude Tag：SlackにAI同僚が入る話（常田さん）</p>
+              </div>
+            </li>
+          </ol>
+          <p class="contrib-total reveal" style="--i:3">先週のナレッジ共有 合計 <span>31</span> 件・投稿者 9 名（告知・共有された完成分のみ。作成途中の下書きは除く）</p>
+        </div>
+      </section>
+
+      <!-- 05 — Section: 注目ナレッジ -->
+      <section class="slide section--mint" data-layout="section" aria-roledescription="slide" aria-labelledby="s5-title">
+        <div class="section-deco" aria-hidden="true">
+          <div class="blob blob--sun blob--big"></div>
+        </div>
+        <div class="slide__inner">
+          <span class="kicker reveal" style="--i:0">02 / 04</span>
+          <div class="section__num reveal" style="--i:1">02</div>
+          <h2 class="section__title reveal" style="--i:2" id="s5-title">注目 <em class="highlight">ナレッジ・Tips</em></h2>
+          <p class="section__sub reveal" style="--i:3">先週、社内の<strong>反応（閲覧）が多かった</strong>ナレッジを 3 本。</p>
+        </div>
+      </section>
+
+      <!-- 06 — Grid: 注目ナレッジ（反応順） -->
+      <section class="slide" data-layout="grid" aria-roledescription="slide" aria-labelledby="s6-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">Most Viewed</span>
+            <h2 class="title" id="s6-title">反応が多かった <em class="squiggle">いい投稿</em></h2>
+          </header>
+          <ul class="cards" role="list">
+            <li class="card reveal" style="--i:1">
+              <span class="card__icon card__icon--grape" aria-hidden="true">★</span>
+              <h3 class="card__title">Claude Code vs Copilot Cowork 徹底整理</h3>
+              <p class="card__body">Claude Codeにしかできないことを、Copilot Coworkと並べて徹底比較。「どっちを使えばいい？」という問いへの実践的な回答として、閲覧が多かった一本。</p>
+              <p class="card__meta">AI / 開発ツール ・ 海老根さん</p>
+            </li>
+            <li class="card reveal" style="--i:2">
+              <span class="card__icon card__icon--pink" aria-hidden="true">♥</span>
+              <h3 class="card__title">CSカルテ｜顧客状況の把握でCS・クロスセル・コスト削減を同時に</h3>
+              <p class="card__body">顧客の状況を常に把握してCS品質向上・クロスセル・コスト削減を同時に実現する仕組み。ツールと運用の組み合わせを整理した増谷さんの実践ナレッジ。</p>
+              <p class="card__meta">CS / 顧客管理 ・ 増谷さん</p>
+            </li>
+            <li class="card reveal" style="--i:3">
+              <span class="card__icon card__icon--mint" aria-hidden="true">✓</span>
+              <h3 class="card__title">Webアプリってどうやって動いているの？</h3>
+              <p class="card__body">ブラウザからサーバーまで、Webの仕組みをゼロから解説した一本。「知っておきたいウェブの基礎知識」として、エンジニア以外にも読まれた基礎インプット。</p>
+              <p class="card__meta">Tech / 基礎 ・ 生井さん</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 07 — Section: AI×実務活用特集 -->
+      <section class="slide section--pink" data-layout="section" aria-roledescription="slide" aria-labelledby="s7-title">
+        <div class="section-deco" aria-hidden="true">
+          <div class="blob blob--mint blob--big"></div>
+        </div>
+        <div class="slide__inner">
+          <span class="kicker reveal" style="--i:0">03 / 04</span>
+          <div class="section__num reveal" style="--i:1">03</div>
+          <h2 class="section__title reveal" style="--i:2" id="s7-title">AI × <em class="highlight">実務活用ナレッジ特集</em></h2>
+          <p class="section__sub reveal" style="--i:3">Salesforce・音声データ・商談フォローに AI を組み込む。<br />先週は「つなぐ」「記録する」「評価する」の3つの実践ナレッジが揃いました。</p>
+        </div>
+      </section>
+
+      <!-- 08 — Grid: AI×実務活用 -->
+      <section class="slide" data-layout="grid" aria-roledescription="slide" aria-labelledby="s8-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">AI × 実務活用</span>
+            <h2 class="title" id="s8-title">AI で仕事を <em class="squiggle">変える</em> 実践ナレッジ</h2>
+          </header>
+          <ul class="cards" role="list">
+            <li class="card reveal" style="--i:1">
+              <span class="card__icon card__icon--grape" aria-hidden="true">◆</span>
+              <h3 class="card__title">AIからSalesforceを動かす3手段</h3>
+              <p class="card__body">CLI / DX MCP / Hosted MCPの3ルートを整理。どの手段がどのシーンに合うか、菊池さんが実践的に分類。Salesforce×AIを始める前に読む一本。</p>
+              <p class="card__meta">Salesforce / AI連携 ・ 菊池さん</p>
+            </li>
+            <li class="card reveal" style="--i:2">
+              <span class="card__icon card__icon--pink" aria-hidden="true">◆</span>
+              <h3 class="card__title">録画なしで訪問後ボイスメモをSF活動に自動入力</h3>
+              <p class="card__body">ZRAなしでも訪問直後のボイスメモをSalesforceに活動記録として自動入力するパイプライン。訪問営業の「記録忘れ」をゼロにする仕組み。</p>
+              <p class="card__meta">営業 / 活動記録自動化 ・ 増谷さん</p>
+            </li>
+            <li class="card reveal" style="--i:3">
+              <span class="card__icon card__icon--mint" aria-hidden="true">◆</span>
+              <h3 class="card__title">AIが会話を「評価する」時代</h3>
+              <p class="card__body">「聞いて終わり」と「データにする」の切り分け方。音声・会話をAIで評価・データ化する考え方を整理した秋元さんのナレッジ。AI活用の次の一手。</p>
+              <p class="card__meta">AI / 会話分析 ・ 秋元さん</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 09 — Closing -->
+      <section class="slide" data-layout="closing" aria-roledescription="slide" aria-labelledby="s9-title">
+        <div class="closing-deco" aria-hidden="true">
+          <div class="blob blob--pink blob--a"></div>
+          <div class="blob blob--mint blob--b"></div>
+          <div class="blob blob--sun blob--c"></div>
+        </div>
+        <div class="slide__inner slide__inner--center">
+          <span class="kicker reveal" style="--i:0">Have a great week!</span>
+          <h2 class="closing__title reveal" style="--i:1" id="s9-title">
+            <span class="gradient">今週も</span><br />頑張りましょう！
+          </h2>
+          <p class="closing__text reveal" style="--i:2">
+            先週も Claude 活用・Salesforce連携・基礎から実践まで幅広いナレッジが 31 件集まりました！<br />
+            今週も、たくさんの知見を共有し合っていきましょう！
+          </p>
+          <a class="closing__cta reveal" style="--i:3" href="#1">先頭に戻る →</a>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Chrome (bottom nav) -->
+    <div class="chrome">
+      <div class="chrome__brand">WEEKLY&nbsp;WIKI&nbsp;/&nbsp;06.29</div>
+      <nav class="controls" aria-label="Slide navigation">
+        <button class="control" data-action="prev" aria-label="Previous slide">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 6-6 6 6 6"/></svg>
+        </button>
+        <div class="counter" aria-live="polite">
+          <span id="cur">01</span><span class="counter__sep">/</span><span id="tot">09</span>
+        </div>
+        <button class="control" data-action="next" aria-label="Next slide">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+        </button>
+      </nav>
+    </div>
+
+    <div class="progress" aria-hidden="true">
+      <div class="progress__bar" id="bar"></div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
