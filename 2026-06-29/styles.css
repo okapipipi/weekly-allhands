@@ -485,6 +485,20 @@ code {
   padding-top: 0.55rem;
   border-top: 1px dashed var(--line);
 }
+.card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  font-family: var(--font-mono);
+  font-size: var(--t-xs);
+  font-weight: 600;
+  color: var(--grape);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  padding-top: 0.35rem;
+  transition: opacity var(--d-fast);
+}
+.card__link:hover { opacity: 0.65; text-decoration: underline; }
 
 /* ---------- 05 Metric ---------- */
 .metric-row {
