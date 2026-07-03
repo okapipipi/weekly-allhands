@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="先週のふりかえり — Weekly All Hands / 2026.07.06" />
+  <title>先週のふりかえり — Weekly All Hands</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="deck" id="deck" aria-label="Weekly All Hands 2026.07.06">
+    <div class="deck__track" id="track">
+
+      <!-- 01 — Cover -->
+      <section class="slide" data-layout="cover" aria-roledescription="slide" aria-labelledby="s1-title">
+        <div class="cover-deco" aria-hidden="true">
+          <div class="blob blob--a"></div>
+          <div class="blob blob--b"></div>
+          <div class="blob blob--c"></div>
+        </div>
+        <div class="slide__inner slide__inner--cover">
+          <header class="cover__top reveal" style="--i:0">
+            <span class="cover__brand">WEEKLY&nbsp;WIKI</span>
+            <span class="sticker sticker--pink">2026.07.06</span>
+          </header>
+          <div class="cover__main">
+            <h1 class="display reveal" style="--i:1" id="s1-title">
+              <span class="gradient">先週</span> の<br />ふりかえり
+            </h1>
+            <p class="lede reveal" style="--i:2">Wiki共有数ベスト3・注目ナレッジ・AI×実務活用特集を 1 周。<br />先週も 29 件の知見が集まりました。</p>
+          </div>
+          <footer class="cover__foot reveal" style="--i:3">
+            <span>社内ナレッジ共有</span>
+            <span class="dot"></span>
+            <span>2026.07.06</span>
+            <span class="dot"></span>
+            <span>Weekly</span>
+          </footer>
+        </div>
+      </section>
+
+      <!-- 02 — Agenda -->
+      <section class="slide" data-layout="agenda" aria-roledescription="slide" aria-labelledby="s2-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">Agenda</span>
+            <h2 class="title" id="s2-title">先週を <em class="squiggle">ふりかえる</em></h2>
+          </header>
+          <ol class="agenda" role="list">
+            <li class="agenda__item reveal" style="--i:1">
+              <span class="agenda__num">01</span>
+              <span class="agenda__title">Wiki共有数ベスト3</span>
+              <span class="agenda__desc">先週いちばん知見をシェアしたメンバー</span>
+            </li>
+            <li class="agenda__item reveal" style="--i:2">
+              <span class="agenda__num">02</span>
+              <span class="agenda__title">注目ナレッジ・Tips</span>
+              <span class="agenda__desc">反応（閲覧）が多かった投稿をピックアップ</span>
+            </li>
+            <li class="agenda__item reveal" style="--i:3">
+              <span class="agenda__num">03</span>
+              <span class="agenda__title">AI × 実務活用ナレッジ特集</span>
+              <span class="agenda__desc">Zoom・商談・業務改善との実践的な組み合わせ</span>
+            </li>
+            <li class="agenda__item reveal" style="--i:4">
+              <span class="agenda__num">04</span>
+              <span class="agenda__title">全体総括</span>
+              <span class="agenda__desc">先週のまとめと、今週への一言</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- 03 — Section: Wiki共有数ベスト3 -->
+      <section class="slide section--grape" data-layout="section" aria-roledescription="slide" aria-labelledby="s3-title">
+        <div class="section-deco" aria-hidden="true">
+          <div class="blob blob--pink blob--big"></div>
+        </div>
+        <div class="slide__inner">
+          <span class="kicker reveal" style="--i:0">01 / 04</span>
+          <div class="section__num reveal" style="--i:1">01</div>
+          <h2 class="section__title reveal" style="--i:2" id="s3-title">Wiki <em class="highlight">共有数ベスト3</em></h2>
+          <p class="section__sub reveal" style="--i:3">積極的なアウトプットがチーム全体の財産になります。<br />先週いちばん知見をシェアしてくれたメンバーに感謝！</p>
+        </div>
+      </section>
+
+      <!-- 04 — ランキングボード -->
+      <section class="slide" data-layout="rank" aria-roledescription="slide" aria-labelledby="s4-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">Wiki Knowledge Ranking</span>
+            <h2 class="title" id="s4-title">Wiki <em class="squiggle">共有数ベスト3</em></h2>
+          </header>
+          <ol class="contrib-rank">
+            <li class="reveal" style="--i:1">
+              <span class="rk">1<small>位</small></span>
+              <div>
+                <div class="who">増谷さん <em>12件</em></div>
+                <p class="posts">「カリフォルニア州が全庁Claude導入」を、AI慎重派を落とす営業の弾にする ／ 中小製造業の設備投資3.5%減 —「投資を抑えたい今こそ」SaaS/AIが刺さる ／ 公式プラグイン「claude-code-setup」でClaude Codeが別物になる ／ 商談中にClaude Codeで即席デモを「ライブ構築」して見せたら刺さった話 ／ CursorがiOSアプリを公開 ／ X公式「X MCP」発表 ／ Claude Tagはなぜ"Slack依存"なのか？そして今後は？ ／ AIが起こす「メモリ・スーパーサイクル」 ／ Microsoft × Anthropic 提携、何が起きてる？ ／ 証明の主体を「ツール」から「人」に移す（営業向け） ／ なぜ今Claude Codeか — Google自身が認めるAI実装格差 ／ 【速報】MicrosoftがExcel Copilotに「Skills」追加 — SKILL.mdが業界標準に ／ 計12件</p>
+              </div>
+            </li>
+            <li class="reveal" style="--i:2">
+              <span class="rk">2<small>位</small></span>
+              <div>
+                <div class="who">生井さん <em>4件</em></div>
+                <p class="posts">SSHって何？リモートサーバーを「自分のPCみたいに」操作する仕組み｜エンジニア研修Vol.2 ／ 最近発表された「Claude Tag」の正体！実際に実装してみてわかったこと ／ 最近話題の『Loop Engineering』ってなに？ ／ 賢いAIほど、みんなを"同じ答え"に連れていく理由</p>
+              </div>
+            </li>
+            <li class="reveal" style="--i:3">
+              <span class="rk">3<small>位</small></span>
+              <div>
+                <div class="who">海老根さん・常田さん <em>各2件</em></div>
+                <p class="posts">Claude Tag でできること・できないこと・設定方法（海老根さん） ／ Claude Tag 初ユースケース「業務委託の勤怠管理」（海老根さん） ／ AIモデル停止→再開から見る「AI安全性と国家安全保障」（常田さん） ／ OpenAI「GPT-5.6」速報：Sol / Terra / Lunaの3モデル構成（常田さん）</p>
+              </div>
+            </li>
+          </ol>
+          <p class="contrib-total reveal" style="--i:3">先週のナレッジ共有 合計 <span>29</span> 件・投稿者 10 名（告知・共有された完成分のみ。作成途中の下書きは除く。うち「Claude Sonnet 5」「Claude Mythos 5」「Salesforceを取り巻く3つのレイヤー」の3件はHermes/Holmes bot経由の投稿で実投稿者が未特定のため、個人ランキングには含めていません）</p>
+        </div>
+      </section>
+
+      <!-- 05 — Section: 注目ナレッジ -->
+      <section class="slide section--mint" data-layout="section" aria-roledescription="slide" aria-labelledby="s5-title">
+        <div class="section-deco" aria-hidden="true">
+          <div class="blob blob--sun blob--big"></div>
+        </div>
+        <div class="slide__inner">
+          <span class="kicker reveal" style="--i:0">02 / 04</span>
+          <div class="section__num reveal" style="--i:1">02</div>
+          <h2 class="section__title reveal" style="--i:2" id="s5-title">注目 <em class="highlight">ナレッジ・Tips</em></h2>
+          <p class="section__sub reveal" style="--i:3">先週、社内の<strong>反応（閲覧）が多かった</strong>ナレッジを 3 本。</p>
+        </div>
+      </section>
+
+      <!-- 06 — Grid: 注目ナレッジ（反応順） -->
+      <section class="slide" data-layout="grid" aria-roledescription="slide" aria-labelledby="s6-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">Most Reacted</span>
+            <h2 class="title" id="s6-title">反応が多かった <em class="squiggle">いい投稿</em></h2>
+          </header>
+          <ul class="cards" role="list">
+            <li class="card reveal" style="--i:1">
+              <span class="card__icon card__icon--grape" aria-hidden="true">★</span>
+              <h3 class="card__title">中小製造業の設備投資3.5%減 —「投資を抑えたい今こそ」SaaS/AIが刺さる</h3>
+              <p class="card__body">日本公庫まとめで中小製造業の設備投資が2年ぶりのマイナスに。大型投資を絞る局面こそ、低コストで生産性を上げるSaaS/AI提案が刺さりやすいという営業視点を整理した一本。</p>
+              <p class="card__meta">営業 / マーケット分析 ・ 増谷さん</p>
+              <a class="card__link" href="https://app.notion.com/p/3914e5d99eb38199a94af3a0309b7ae2" target="_blank" rel="noopener noreferrer">投稿を見る →</a>
+            </li>
+            <li class="card reveal" style="--i:2">
+              <span class="card__icon card__icon--pink" aria-hidden="true">♥</span>
+              <h3 class="card__title">Claude Code環境丸ごと健康診断プロンプト</h3>
+              <p class="card__body">後回しになりがちなClaude Codeのセットアップ診断を、まとめて実施するためのプロンプト集。読み取り専用で安全に試せて、設定を積み重ねてきた人ほど効果が大きい一本。</p>
+              <p class="card__meta">Claude Code / 環境診断 ・ 轟さん</p>
+              <a class="card__link" href="https://www.notion.so/3914e5d99eb38140a200fa335a12599d" target="_blank" rel="noopener noreferrer">投稿を見る →</a>
+            </li>
+            <li class="card reveal" style="--i:3">
+              <span class="card__icon card__icon--mint" aria-hidden="true">✓</span>
+              <h3 class="card__title">「私たちは今、"哲学"を売っている」というお話</h3>
+              <p class="card__body">期初Kickoffで出た「思想・哲学を売る」という話を言語化。商品→情報→思想の3階層を整理し、ナレッジシェアこそがDigiManの背骨を太くする行為だと説く一本。</p>
+              <p class="card__meta">組織 / カルチャー ・ 菊池さん</p>
+              <a class="card__link" href="https://www.notion.so/3914e5d99eb3813dbd01de0537c1b025" target="_blank" rel="noopener noreferrer">投稿を見る →</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 07 — Section: AI×実務活用特集 -->
+      <section class="slide section--pink" data-layout="section" aria-roledescription="slide" aria-labelledby="s7-title">
+        <div class="section-deco" aria-hidden="true">
+          <div class="blob blob--mint blob--big"></div>
+        </div>
+        <div class="slide__inner">
+          <span class="kicker reveal" style="--i:0">03 / 04</span>
+          <div class="section__num reveal" style="--i:1">03</div>
+          <h2 class="section__title reveal" style="--i:2" id="s7-title">AI × <em class="highlight">実務活用ナレッジ特集</em></h2>
+          <p class="section__sub reveal" style="--i:3">Zoom・商談・業務改善に AI を組み込む。<br />先週は「整理する」「見せる」「改善する」の3つの実践ナレッジが揃いました。</p>
+        </div>
+      </section>
+
+      <!-- 08 — Grid: AI×実務活用 -->
+      <section class="slide" data-layout="grid" aria-roledescription="slide" aria-labelledby="s8-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">AI × 実務活用</span>
+            <h2 class="title" id="s8-title">AI で仕事を <em class="squiggle">変える</em> 実践ナレッジ</h2>
+          </header>
+          <ul class="cards" role="list">
+            <li class="card reveal" style="--i:1">
+              <span class="card__icon card__icon--grape" aria-hidden="true">◆</span>
+              <h3 class="card__title">ZoomのZRAとワークフローの違いは"判断するAIか・しないか"で一発</h3>
+              <p class="card__body">ZRAは商談を解釈して示唆を返す「判断する」AI、ワークフローはルール通りに動く「判断しない」自動化。商談で聞かれたときに一言で切り分けられるよう辻森さんが整理した一本。</p>
+              <p class="card__meta">Zoom / AI活用整理 ・ 辻森さん</p>
+              <a class="card__link" href="https://app.notion.com/p/38f4e5d99eb381648805f04730ce0415" target="_blank" rel="noopener noreferrer">投稿を見る →</a>
+            </li>
+            <li class="card reveal" style="--i:2">
+              <span class="card__icon card__icon--pink" aria-hidden="true">◆</span>
+              <h3 class="card__title">商談中にClaude Codeで即席デモを「ライブ構築」</h3>
+              <p class="card__body">商談の場でClaude Codeを使い、その場で簡易デモを作って見せる営業手法の実践知見。話すだけでなく「作って見せる」ことの説得力を伝える一本。</p>
+              <p class="card__meta">営業 / 商談ライブデモ ・ 増谷さん</p>
+              <a class="card__link" href="https://app.notion.com/p/3904e5d99eb381b8ad1ecce6a0e93efb" target="_blank" rel="noopener noreferrer">投稿を見る →</a>
+            </li>
+            <li class="card reveal" style="--i:3">
+              <span class="card__icon card__icon--mint" aria-hidden="true">◆</span>
+              <h3 class="card__title">Claude Tag 初ユースケース「業務委託の勤怠管理」</h3>
+              <p class="card__body">業務委託メンバーの勤怠管理にClaude Tagを活用した初事例。Slack上でのタグ運用だけで業務改善につなげた海老根さんの実践知見。</p>
+              <p class="card__meta">業務改善 / 勤怠管理 ・ 海老根さん</p>
+              <a class="card__link" href="https://www.notion.so/38e4e5d99eb3813e8929e5525be68c98" target="_blank" rel="noopener noreferrer">投稿を見る →</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 09 — Closing -->
+      <section class="slide" data-layout="closing" aria-roledescription="slide" aria-labelledby="s9-title">
+        <div class="closing-deco" aria-hidden="true">
+          <div class="blob blob--pink blob--a"></div>
+          <div class="blob blob--mint blob--b"></div>
+          <div class="blob blob--sun blob--c"></div>
+        </div>
+        <div class="slide__inner slide__inner--center">
+          <span class="kicker reveal" style="--i:0">Have a great week!</span>
+          <h2 class="closing__title reveal" style="--i:1" id="s9-title">
+            <span class="gradient">今週も</span><br />頑張りましょう！
+          </h2>
+          <p class="closing__text reveal" style="--i:2">
+            先週も Claude 活用・業務効率化・組織カルチャーまで幅広いナレッジが 29 件集まりました！<br />
+            今週も、たくさんの知見を共有し合っていきましょう！
+          </p>
+          <a class="closing__cta reveal" style="--i:3" href="#1">先頭に戻る →</a>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Chrome (bottom nav) -->
+    <div class="chrome">
+      <div class="chrome__brand">WEEKLY&nbsp;WIKI&nbsp;/&nbsp;07.06</div>
+      <nav class="controls" aria-label="Slide navigation">
+        <button class="control" data-action="prev" aria-label="Previous slide">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 6-6 6 6 6"/></svg>
+        </button>
+        <div class="counter" aria-live="polite">
+          <span id="cur">01</span><span class="counter__sep">/</span><span id="tot">09</span>
+        </div>
+        <button class="control" data-action="next" aria-label="Next slide">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+        </button>
+      </nav>
+    </div>
+
+    <div class="progress" aria-hidden="true">
+      <div class="progress__bar" id="bar"></div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
