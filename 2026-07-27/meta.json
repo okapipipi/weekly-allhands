@@ -1,0 +1,12 @@
+{
+  "id": "slides-weekly-allhands",
+  "title": "先週のふりかえり",
+  "subtitle": "Weekly All Hands / 2026.07.27",
+  "description": "先週(7/17-7/24)のWiki共有数ベスト3・注目ナレッジ・商談基本×営業AI最前線特集をまとめ、今週に向けた前向きな締めで終える週次オールハンズ資料。合計11件・6名。",
+  "tags": ["light", "pastel", "playful", "weekly"],
+  "swatches": ["#fff7ed", "#6b5bff", "#ff7ab6", "#51d0a8"],
+  "slideCount": 9,
+  "patterns": ["cover", "agenda", "section", "metric", "grid", "closing"],
+  "fonts": ["Plus Jakarta Sans", "Noto Sans JP", "Geist Mono"],
+  "createdAt": "2026-07-24"
+}
