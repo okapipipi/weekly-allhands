@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="先週のふりかえり — Weekly All Hands / 2026.08.31" />
+  <title>先週のふりかえり — Weekly All Hands</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="deck" id="deck" aria-label="Weekly All Hands 2026.08.31">
+    <div class="deck__track" id="track">
+
+      <!-- 01 — Cover -->
+      <section class="slide" data-layout="cover" aria-roledescription="slide" aria-labelledby="s1-title">
+        <div class="cover-deco" aria-hidden="true">
+          <div class="blob blob--a"></div>
+          <div class="blob blob--b"></div>
+          <div class="blob blob--c"></div>
+        </div>
+        <div class="slide__inner slide__inner--cover">
+          <header class="cover__top reveal" style="--i:0">
+            <span class="cover__brand">WEEKLY&nbsp;WIKI</span>
+            <span class="sticker sticker--pink">2026.08.31</span>
+          </header>
+          <div class="cover__main">
+            <h1 class="display reveal" style="--i:1" id="s1-title">
+              <span class="gradient">先週</span> の<br />ふりかえり
+            </h1>
+            <p class="lede reveal" style="--i:2">Wiki共有数ベスト3・注目ナレッジを 1 周。<br />先週(8/21〜8/28)は 4 名からそれぞれ 1 件ずつ、合計 4 件の知見が集まりました。</p>
+          </div>
+          <footer class="cover__foot reveal" style="--i:3">
+            <span>社内ナレッジ共有</span>
+            <span class="dot"></span>
+            <span>2026.08.31</span>
+            <span class="dot"></span>
+            <span>Weekly</span>
+          </footer>
+        </div>
+      </section>
+
+      <!-- 02 — Agenda -->
+      <section class="slide" data-layout="agenda" aria-roledescription="slide" aria-labelledby="s2-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">Agenda</span>
+            <h2 class="title" id="s2-title">先週を <em class="squiggle">ふりかえる</em></h2>
+          </header>
+          <ol class="agenda" role="list">
+            <li class="agenda__item reveal" style="--i:1">
+              <span class="agenda__num">01</span>
+              <span class="agenda__title">Wiki共有数ベスト3</span>
+              <span class="agenda__desc">先週いちばん知見をシェアしたメンバー</span>
+            </li>
+            <li class="agenda__item reveal" style="--i:2">
+              <span class="agenda__num">02</span>
+              <span class="agenda__title">注目ナレッジ</span>
+              <span class="agenda__desc">反応（Slackスタンプ）が多かった投稿をピックアップ</span>
+            </li>
+            <li class="agenda__item reveal" style="--i:3">
+              <span class="agenda__num">03</span>
+              <span class="agenda__title">全体総括</span>
+              <span class="agenda__desc">先週のまとめと、今週への一言</span>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- 03 — Section: Wiki共有数ベスト3 -->
+      <section class="slide section--grape" data-layout="section" aria-roledescription="slide" aria-labelledby="s3-title">
+        <div class="section-deco" aria-hidden="true">
+          <div class="blob blob--pink blob--big"></div>
+        </div>
+        <div class="slide__inner">
+          <span class="kicker reveal" style="--i:0">01 / 03</span>
+          <div class="section__num reveal" style="--i:1">01</div>
+          <h2 class="section__title reveal" style="--i:2" id="s3-title">Wiki <em class="highlight">共有数ベスト3</em></h2>
+          <p class="section__sub reveal" style="--i:3">積極的なアウトプットがチーム全体の財産になります。<br />先週は、4名がそれぞれ1件ずつ知見をシェアしてくれました。</p>
+        </div>
+      </section>
+
+      <!-- 04 — ランキングボード -->
+      <section class="slide" data-layout="rank" aria-roledescription="slide" aria-labelledby="s4-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">Wiki Knowledge Ranking</span>
+            <h2 class="title" id="s4-title">Wiki <em class="squiggle">共有数ベスト3</em></h2>
+          </header>
+          <ol class="contrib-rank">
+            <li class="reveal" style="--i:1">
+              <span class="rk">1<small>位</small></span>
+              <div>
+                <div class="who">宮城さん・田中さん・菊池さん・松居さん <em>各1件</em></div>
+                <p class="posts">法務ナレッジ：マターマネジメントとナレッジマネジメントの違い（宮城さん） ／ 同日2商談で「本当に新卒？」と言わせた型（田中さん） ／ Antigravity×Salesforce CLI直接実行｜金融大手でも通る構成（菊池さん） ／ 定例を「意思決定の場」に変える、過去4回断られた提案が当日即決になった話（松居さん）</p>
+              </div>
+            </li>
+          </ol>
+          <p class="contrib-total reveal" style="--i:3">先週のナレッジ共有 合計 <span>4</span> 件・投稿者 4 名（先週は全員が1件ずつの投稿でした。告知・共有された完成分のみ。作成途中の下書きは除く）</p>
+        </div>
+      </section>
+
+      <!-- 05 — Section: 注目ナレッジ -->
+      <section class="slide section--mint" data-layout="section" aria-roledescription="slide" aria-labelledby="s5-title">
+        <div class="section-deco" aria-hidden="true">
+          <div class="blob blob--sun blob--big"></div>
+        </div>
+        <div class="slide__inner">
+          <span class="kicker reveal" style="--i:0">02 / 03</span>
+          <div class="section__num reveal" style="--i:1">02</div>
+          <h2 class="section__title reveal" style="--i:2" id="s5-title">注目 <em class="highlight">ナレッジ</em></h2>
+          <p class="section__sub reveal" style="--i:3">先週、社内の<strong>反応（Slackスタンプ）が多かった</strong>ナレッジを 4 本（＝先週の投稿すべて）。</p>
+        </div>
+      </section>
+
+      <!-- 06 — Grid: 注目ナレッジ（反応順・1〜2位） -->
+      <section class="slide" data-layout="grid" aria-roledescription="slide" aria-labelledby="s6-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">Most Reacted</span>
+            <h2 class="title" id="s6-title">反応が多かった <em class="squiggle">いい投稿</em></h2>
+          </header>
+          <ul class="cards cards--2col" role="list">
+            <li class="card reveal" style="--i:1">
+              <span class="card__icon card__icon--grape" aria-hidden="true">★</span>
+              <h3 class="card__title">過去4回断られていた提案が、定例で当日即決に</h3>
+              <p class="card__body">過去4回断られていた「DigiManからのリマインド架電」提案を、定例の進め方を変えるだけで当日その場で了承獲得。カギは①判断材料（双方の実施率）の事前小出し ②Yes/Noでなく A/B の選択式提案 の2点。報告・相談の場を意思決定の場に変える型として、他案件にも横展開できる内容です。</p>
+              <p class="card__meta">商談ナレッジ / アポ率直結 ・ 松居さん</p>
+              <a class="card__link" href="https://app.notion.com/p/3c64e5d99eb380f48975ecd4c53ff120" target="_blank" rel="noopener noreferrer">投稿を見る →</a>
+            </li>
+            <li class="card reveal" style="--i:2">
+              <span class="card__icon card__icon--pink" aria-hidden="true">♥</span>
+              <h3 class="card__title">同日2商談で「本当に新卒？」と言わせた型</h3>
+              <p class="card__body">同じ日に2件の商談で「本当に新卒ですか？」と驚かれた構造を分解。冒頭合意・弱み開示・返しの質問・概念→事例の順序など再現できる型6選に加え、同行した菊池さん・安達さんにできていて自分にはできていなかった7つの差分まで全解剖した営業メンバー必読の一本。</p>
+              <p class="card__meta">営業手法 / アポ率直結 ・ 田中さん</p>
+              <a class="card__link" href="https://app.notion.com/p/3c74e5d99eb381aca2c8d89a1bae60f8" target="_blank" rel="noopener noreferrer">投稿を見る →</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 07 — Grid: 注目ナレッジ（反応順・3〜4位） -->
+      <section class="slide" data-layout="grid" aria-roledescription="slide" aria-labelledby="s7-title">
+        <div class="slide__inner">
+          <header class="slide-head reveal" style="--i:0">
+            <span class="kicker">Most Reacted</span>
+            <h2 class="title" id="s7-title">反応が多かった <em class="squiggle">いい投稿</em>（続き）</h2>
+          </header>
+          <ul class="cards cards--2col" role="list">
+            <li class="card reveal" style="--i:1">
+              <span class="card__icon card__icon--mint" aria-hidden="true">✦</span>
+              <h3 class="card__title">Antigravity×Salesforce CLI直接実行｜金融大手でも通る構成</h3>
+              <p class="card__body">Google AntigravityはMCPサーバーを介さずSalesforce CLIを直接実行できるため、導入物がGoogle公式・Salesforce公式・Node.jsの3点だけになり、金融大手のセキュリティ審査でも論点を大きく絞れる。SOMPOひまわり生命の商談で実際に使ったシステム部門向け確認事項チェックリスト（A〜F）を全文掲載。</p>
+              <p class="card__meta">AI活用 / プロダクト知見 ・ 菊池さん</p>
+              <a class="card__link" href="https://app.notion.com/p/3c74e5d99eb3815a82d4f87a75c07ebe" target="_blank" rel="noopener noreferrer">投稿を見る →</a>
+            </li>
+            <li class="card reveal" style="--i:2">
+              <span class="card__icon card__icon--sun" aria-hidden="true">◆</span>
+              <h3 class="card__title">マターマネジメントとナレッジマネジメントの違い</h3>
+              <p class="card__body">MNTSQの架電中にお客様から出た「マターマネジメント」という言葉を調査し、MNTSQでよく使う「ナレッジマネジメント」との違い・関係性を整理。案件管理と知識の再利用という2つの視点の違いを、営業時にお客様へそのまま説明できる一言まで含めてまとめた法務ナレッジ。</p>
+              <p class="card__meta">法務ナレッジ / 顧客理解 ・ 宮城さん</p>
+              <a class="card__link" href="https://app.notion.com/p/3c84e5d99eb381d3ac37c7b728fcc7f0" target="_blank" rel="noopener noreferrer">投稿を見る →</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 08 — Closing -->
+      <section class="slide" data-layout="closing" aria-roledescription="slide" aria-labelledby="s8-title">
+        <div class="closing-deco" aria-hidden="true">
+          <div class="blob blob--pink blob--a"></div>
+          <div class="blob blob--mint blob--b"></div>
+          <div class="blob blob--sun blob--c"></div>
+        </div>
+        <div class="slide__inner slide__inner--center">
+          <span class="kicker reveal" style="--i:0">Have a great week!</span>
+          <h2 class="closing__title reveal" style="--i:1" id="s8-title">
+            <span class="gradient">今週も</span><br />頑張りましょう！
+          </h2>
+          <p class="closing__text reveal" style="--i:2">
+            先週も、定例を意思決定の場に変える交渉の型から、金融大手でも通るAI活用構成、新卒とは思えない商談の型まで、質の高い知見が 4 件集まりました！<br />
+            今週も、たくさんの知見を共有し合っていきましょう！
+          </p>
+          <a class="closing__cta reveal" style="--i:3" href="#1">先頭に戻る →</a>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Chrome (bottom nav) -->
+    <div class="chrome">
+      <div class="chrome__brand">WEEKLY&nbsp;WIKI&nbsp;/&nbsp;08.31</div>
+      <nav class="controls" aria-label="Slide navigation">
+        <button class="control" data-action="prev" aria-label="Previous slide">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 6-6 6 6 6"/></svg>
+        </button>
+        <div class="counter" aria-live="polite">
+          <span id="cur">01</span><span class="counter__sep">/</span><span id="tot">08</span>
+        </div>
+        <button class="control" data-action="next" aria-label="Next slide">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+        </button>
+      </nav>
+    </div>
+
+    <div class="progress" aria-hidden="true">
+      <div class="progress__bar" id="bar"></div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
