@@ -1,0 +1,12 @@
+{
+  "id": "slides-weekly-allhands",
+  "title": "先週のふりかえり",
+  "subtitle": "Weekly All Hands / Wikiナレッジ共有",
+  "description": "先週(9/11-9/18)に共有された Wiki ナレッジ 5 件を、共有数ベスト3・注目ナレッジの2本立てでまとめた週次オールハンズ資料。東急案件でいつもの仕事を見せただけで営業代行の枠を超えた依頼につながった話や、アスマーク訪問での事前準備の学び、主語をお客さんに置き換える提案の視点など、実務に効く知見が集まった一週間。",
+  "tags": ["light", "pastel", "playful", "wiki", "all-hands"],
+  "swatches": ["#fff7ed", "#6b5bff", "#ff7ab6", "#51d0a8"],
+  "slideCount": 7,
+  "patterns": ["cover", "agenda", "section", "rank", "grid", "closing"],
+  "fonts": ["Plus Jakarta Sans", "Noto Sans JP", "Geist Mono"],
+  "createdAt": "2026-09-18"
+}
