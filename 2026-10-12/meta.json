@@ -1,0 +1,12 @@
+{
+  "id": "slides-weekly-allhands",
+  "title": "先週のふりかえり",
+  "subtitle": "Weekly All Hands / Wikiナレッジ共有",
+  "description": "先週(10/2-10/9)に共有された Wiki ナレッジ 1 件を、共有数ベスト3・注目ナレッジの2本立てでまとめた週次オールハンズ資料。2Qスローガン「推し客」の実践例として、お客様とその市場を「知り続ける」仕組みと、それがクライアントと架電先からの感謝につながった話を紹介。",
+  "tags": ["light", "pastel", "playful", "wiki", "all-hands"],
+  "swatches": ["#fff7ed", "#6b5bff", "#ff7ab6", "#51d0a8"],
+  "slideCount": 7,
+  "patterns": ["cover", "agenda", "section", "rank", "grid", "closing"],
+  "fonts": ["Plus Jakarta Sans", "Noto Sans JP", "Geist Mono"],
+  "createdAt": "2026-10-09"
+}
