@@ -1,0 +1,12 @@
+{
+  "id": "slides-weekly-allhands",
+  "title": "先週のふりかえり",
+  "subtitle": "Weekly All Hands / Wikiナレッジ共有",
+  "description": "先週(10/9-10/16)に共有された Wiki ナレッジ 4 件を、共有数ベスト3・注目ナレッジの2本立てでまとめた週次オールハンズ資料。Grok Botで依頼のモレクレをなくす仕組み、順調に見える案件でも先方トップに率直に聞きに行く姿勢、視点・視野・視座の伸ばし方などを紹介。",
+  "tags": ["light", "pastel", "playful", "wiki", "all-hands"],
+  "swatches": ["#fff7ed", "#6b5bff", "#ff7ab6", "#51d0a8"],
+  "slideCount": 8,
+  "patterns": ["cover", "agenda", "section", "rank", "grid", "closing"],
+  "fonts": ["Plus Jakarta Sans", "Noto Sans JP", "Geist Mono"],
+  "createdAt": "2026-10-16"
+}
