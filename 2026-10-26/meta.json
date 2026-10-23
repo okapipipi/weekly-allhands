@@ -1,0 +1,12 @@
+{
+  "id": "slides-weekly-allhands",
+  "title": "先週のふりかえり",
+  "subtitle": "Weekly All Hands / Wikiナレッジ共有",
+  "description": "先週(10/16-10/23)は #ナレッジギブ でのWiki共有の告知がなかったため、その旨と今週への呼びかけを1枚にまとめた週次オールハンズ資料。",
+  "tags": ["light", "pastel", "playful", "wiki", "all-hands"],
+  "swatches": ["#fff7ed", "#6b5bff", "#ff7ab6", "#51d0a8"],
+  "slideCount": 1,
+  "patterns": ["section"],
+  "fonts": ["Plus Jakarta Sans", "Noto Sans JP", "Geist Mono"],
+  "createdAt": "2026-10-23"
+}
