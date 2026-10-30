@@ -1,0 +1,12 @@
+{
+  "id": "slides-weekly-allhands",
+  "title": "先週のふりかえり",
+  "subtitle": "Weekly All Hands / Wikiナレッジ共有",
+  "description": "先週(10/23-10/30)に共有された Wiki ナレッジ 1 件を、共有数ベスト3・注目ナレッジの2本立てでまとめた週次オールハンズ資料。Codexの週間利用枠が毎朝回復していた理由（OpenAIの28日間の改善・利用枠リセット企画）と、期間中に重い作業を進める活かし方を紹介。",
+  "tags": ["light", "pastel", "playful", "wiki", "all-hands"],
+  "swatches": ["#fff7ed", "#6b5bff", "#ff7ab6", "#51d0a8"],
+  "slideCount": 7,
+  "patterns": ["cover", "agenda", "section", "rank", "grid", "closing"],
+  "fonts": ["Plus Jakarta Sans", "Noto Sans JP", "Geist Mono"],
+  "createdAt": "2026-10-30"
+}
