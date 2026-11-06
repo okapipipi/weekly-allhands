@@ -1,0 +1,34 @@
+{
+  "id": "slides-weekly-allhands",
+  "title": "先週のふりかえり",
+  "subtitle": "Weekly All Hands / Wikiナレッジ共有",
+  "description": "先週(10/30-11/6)に共有された Wiki ナレッジ 1 件を、共有数ベスト3・注目ナレッジの2本立てでまとめた週次オールハンズ資料。松居さんによる、リーダーシップの心得10選（動画）の整理と「心も動かす」「数字に意味を持たせる」という気づきを紹介。",
+  "tags": [
+    "light",
+    "pastel",
+    "playful",
+    "wiki",
+    "all-hands"
+  ],
+  "swatches": [
+    "#fff7ed",
+    "#6b5bff",
+    "#ff7ab6",
+    "#51d0a8"
+  ],
+  "slideCount": 7,
+  "patterns": [
+    "cover",
+    "agenda",
+    "section",
+    "rank",
+    "grid",
+    "closing"
+  ],
+  "fonts": [
+    "Plus Jakarta Sans",
+    "Noto Sans JP",
+    "Geist Mono"
+  ],
+  "createdAt": "2026-11-06"
+}
